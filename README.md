@@ -84,10 +84,10 @@ Clone project- git clone https://github.com/kritika-singh-sengar/ecommerce-websi
       - Username- kritikasingh@gmail.com
       - password- kritika123@
    3. In case of invalid authentication error message will display.
-      ![Login Error](/images//login1.PNG)
+      ![Login Error](images//login1.PNG)
 
    4. Routes are guarded, If without login user try to use this application, then after alert message user will automatically redirect to login page.
-      ![Error](/images/guard.PNG)
+      ![Error](images/guard.PNG)
 
    ### _**Registration Page:**_
 
@@ -95,43 +95,43 @@ Clone project- git clone https://github.com/kritika-singh-sengar/ecommerce-websi
    2. User should be able to register.
    3. Validation for email address, password policy (min length 8),
       mandatory fields such as name is performed.
-      ![signup](/images/Register.PNG)
+      ![signup](images/Register.PNG)
 
    ### _**Product Search Page:**_
 
    Search screen should search the input text against all input parameters specified such as (name, code, brand).
    1. Search by Brand:
-      > ![Brand Search](/images/search.PNG)
+      > ![Brand Search](images/search.PNG)
    2. Search by Name:
-      > ![Name Search](/images//name%20search.PNG)
+      > ![Name Search](images//name%20search.PNG)
    3. Search By Code:
-      > ![Code Search](/images/code.PNG)
+      > ![Code Search](images/code.PNG)
    4. Search By all Parameters:
-      > ![All parameters search](/images/search%20all.PNG)
+      > ![All parameters search](images/search%20all.PNG)
 
    ### _**Results Page:**_
 
    1.  Once Search is triggered after specifying the search parameters, It will
       display the search results using the API from Backend Application.
-      ![result page](/images/result%20page.png)
+      ![result page](images/result%20page.png)
       1. Search Result by Brand:
-        > ![result by brand](/images/adidas.PNG)
+        > ![result by brand](images/adidas.PNG)
       2. Search Result By Name:
-        > ![result by name](/images/name%20result.PNG)
+        > ![result by name](images/name%20result.PNG)
       3. Search Result by Code:
-        > ![result by code](/images/search%20result%20code.PNG)
+        > ![result by code](images/search%20result%20code.PNG)
       4. Search Result By all Parameters:
-        > ![result by all](/images/search%20result%20all.PNG)
+        > ![result by all](images/search%20result%20all.PNG)
    2. The user should be able to see the products and filter them further
       by code and rating. User should be able to see all products with average ratings, number of reviews etc.
-      ![filter](/images/filter.PNG)
+      ![filter](images/filter.PNG)
    3. If no results are found, then error message displayed on screen.
-      ![no result](/images/error%20on%20search.PNG)
+      ![no result](images/error%20on%20search.PNG)
 
    ### _**Product Details:**_
 
    User can select a product and view all reviews provided for that product.
-   ![product details](/images/review%20page.PNG)
+   ![product details](images/review%20page.PNG)
 
    ### _**Post a review:**_
 
@@ -140,7 +140,7 @@ Clone project- git clone https://github.com/kritika-singh-sengar/ecommerce-websi
       1. Ratings (1-5),
       2. Heading
       3. Review (min. 20 characters and max 400 characters)
-         ![post review](/images/comment.PNG)
+         ![post review](images/comment.PNG)
 
    ### _**Ask For Reviews:**_
 
@@ -149,26 +149,26 @@ Clone project- git clone https://github.com/kritika-singh-sengar/ecommerce-websi
       - Product name
       - code
       - brand.
-      ![Review](/images/review.PNG)
+      ![Review](images/review.PNG)
 
    2. If a product code already exists in a system, it will provide an error message that the product already exists and will redirect to the product review page after 30 seconds.
    - When product is already available:
-      ![available](/images/wait.PNG)
-      ![review page](/images/review%20page.PNG)
+      ![available](images/wait.PNG)
+      ![review page](images/review%20page.PNG)
 
    - When Product not available:
-      ![not available](/images/wait%20for%20approval.PNG)
-      ![not available](/images/pending.PNG)
+      ![not available](images/wait%20for%20approval.PNG)
+      ![not available](images/pending.PNG)
       
    - When Product is available but not approved
-      ![pending approval](/images/unapproved.PNG)
+      ![pending approval](images/unapproved.PNG)
 
 ## Admin Portal:
 
    1. Admin can login with special email id- admin@gmail.com (assumption)
    2. Only admin@gmail.com has admin right. No other user can use admin
       functionalities.
-      ![admin rights](/images/admin%20rights.PNG)
+      ![admin rights](images/admin%20rights.PNG)
    3. Logged in administrator can view all the new reviews and either approve
       or reject them.
    4. Only approved reviews are then visible on storefront and average ratings
@@ -176,8 +176,8 @@ Clone project- git clone https://github.com/kritika-singh-sengar/ecommerce-websi
 
    ## **Login Screen:**
 
-   ![admin login](/images/admin%20login.PNG)
+   ![admin login](images/admin%20login.PNG)
 
    ## Admin home screen:
 
-   ![admin home screen](./images/admin%20after%20login.PNG)
+   ![admin home screen](images/admin%20after%20login.PNG)
